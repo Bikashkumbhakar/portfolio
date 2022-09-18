@@ -1,0 +1,158 @@
+
+body{
+    margin: 0; 
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.program {
+    font-size: 40px ;
+}
+hr
+{
+    border-style: dotted;
+    border-top: 50px;
+    border-color: rgb(19, 5, 5);
+    width: 5%;
+    border-width: 5px;
+}
+h1{
+    margin-top: 50px;
+    font-family: 'Sacramento', cursive;
+    font-size: 80px;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+.m1
+{
+     color: rgb(103, 200, 245);
+    font-size: 35px;
+}
+.m2
+{
+    color: rgb(103, 200, 245);
+    font-size: 40px;   
+}
+.m3
+{
+    color: rgb(103, 200, 245);  
+    font-size: 40px;
+    margin-bottom: 10px; 
+}
+h3{
+    font-size: 30px;
+    color:  rgb(103, 200, 245);
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+
+.top-container{
+    background-color: rgb(85, 255, 244);
+    position: relative;
+    padding-top: 100px;
+    
+}
+.desc{
+    font-size: 20px;
+
+}
+.mountain {
+    width: 50%;
+}
+.pic
+{
+    margin-top: 20px;
+    border-radius: 60%;
+    height: 210px;
+    width: 210px;
+}
+.pic1{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(192, 65, 73);
+    float: left;
+    margin-right: 30px;
+}
+.pic2{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(192, 65, 73); 
+    float:right ;
+    margin-left: 30px;
+}
+.middle-container{
+    background-color:white;
+    color: black;
+    
+}
+.desc1 {
+    font-size: 20px;
+}
+.desc2 {
+    font-size: 20px;
+    
+}
+.con {
+    font-size: 20px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+.free{
+    color: rgb(103, 200, 245);
+    font-size: 25px;
+}
+.bottom-container{
+    background-color: rgb(103, 200, 245);
+    margin-bottom: 0px;
+    padding: 0%;
+    height: 60px;
+    width: 100%;
+    margin-top: 40px;
+}
+a
+{
+    text-decoration: none;
+}
+.btn {
+    font-size: 15px;
+    color: whitesmoke;
+    height: 70px;
+    width: 150px;
+    background-color:rgb(103, 200, 245) ;
+    padding: 10px 12px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    box-shadow: 6px 10px 40px 10px black; 
+    cursor: pointer;   
+}
+.bth:hover {
+    background-color: blue;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    
+}
+.bottom-container a{
+    margin: 30px;
+}

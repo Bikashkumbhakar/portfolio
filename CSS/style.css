@@ -1,0 +1,24 @@
+h1{
+    color: yellow;
+}
+body{
+    background-color: rgb(16, 134, 32);
+}
+
+img:hover {
+    background-color: gold;
+}
+/********************************CLASS SELECTOR***************************************/
+.Vartika {
+    background-color: green;
+}
+.brinjal {
+    background-color: black;
+}
+.circular {
+    border-radius: 100%;
+}
+/********************************ID SELECTOR***************************************/
+#heading{
+    color: blue;
+}
