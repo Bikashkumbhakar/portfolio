@@ -1,58 +1,365 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Bikash Kumar</title>
-        <link rel="stylesheet" href="CSS/sty.css">
-        <link rel="icon" href="favicon.ico">
-<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="top-container">
-            <img class="top-cloud" src="image/cloud.png" alt="cloud-image">
-            <h1> I am Bikash kumbhakar </h1>
-            <p class="program">A programmer</p>
-            <img class="bottom-cloud" src="image/cloud.png" alt="cloud-image">
-            <img class="mountain" src="image/mountain.png" alt="mountain-image">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bikash Kumbhakar | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- ===== Header / Nav ===== -->
+  <header class="header" id="top">
+    <nav class="nav container reveal" data-delay="0">
+      <a class="logo" href="#top">Bikash<span>.</span></a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu">☰</button>
+
+      <div class="nav__menu" id="navMenu">
+        <a class="nav__link" href="#about">About</a>
+        <a class="nav__link" href="#skills">Skills</a>
+        <a class="nav__link" href="#experience">Experience</a>
+        <a class="nav__link" href="#projects">Projects</a>
+        <a class="nav__link" href="#education">Education</a>
+        <a class="nav__link" href="#contact">Contact</a>
+        <button class="btn small" id="themeBtn" type="button" aria-label="Toggle theme">Toggle theme</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero container">
+      <div class="hero__left">
+        <p class="tag reveal" data-delay="60">Data Analyst • Front-End (HTML/CSS/JS)</p>
+
+        <h1 class="reveal" data-delay="120">Bikash Kumbhakar</h1>
+
+        <p class="subtitle reveal" data-delay="180">
+          Data Analyst skilled in SQL, Python, Power BI, Tableau, and Excel with experience analyzing large datasets,
+          building dashboards, and delivering insights in the banking domain.
+        </p>
+
+        <div class="hero__cta reveal" data-delay="240">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn ghost" href="#contact">Contact Me</a>
         </div>
-        <div class="middle-container">
-            <div class="profile">
-              <img class="pic" src="image/bikaash.jpg" alt="profile">
-              <h2 class="m1">Hello</h2>
-              <p class="desc">I am Bikash, I am pursuing BCA </p>
-            </div>
-            <hr>
-            <div class="skills">
-              <h2 class="m2">My Skills</h2>
-              <div class="skill-row">
-              <div >
-                <img class="pic1" src="image/web.png" alt="web developer">
-              </div>
-               <h3> <strong>Frontend Developer</strong></h3>
-                <p class="desc1">I am a frontend progammer, I can develop your website according to your need in a easy manner</p>
-              </div>
-              <div class="skill-row">
-                <img class="pic2" src="image/pro.png" alt="programmer">
-                <h3><strong>Programmer</strong></h3>
-                <p class="desc2">I have basic and intermediate knowledge of HTML5 and CSS3</p>
-              </div>
-            </div>
-            <hr>
-            <div class="contact-me">
-              <h2 class="m3">Get In Touch</h2>
-              <h3 class="free">I am available for freelancing</h3>
-              <p class="con">If you want to hire a website developer for your project then you can contact me from the following platform</p>
-                <a class="btn" href="mailto:bikashkumbhakar234@gmail.com">CONTACT ME</a>
-            </div>
+
+        <div class="social reveal" data-delay="300">
+          <a href="https://github.com/Bikashkumbhakar" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="#" target="_blank" rel="noreferrer">Tableau</a>
+        </div>
+
+        <div class="quick reveal" data-delay="360">
+          <div class="pill">📧 bikashkumbhakar234@gmail.com</div>
+          <div class="pill">📱 +91-7970897640</div>
+          <div class="pill">🌐 India</div>
+        </div>
+      </div>
+
+      <div class="hero__right">
+        <div class="profileCard reveal floaty" data-delay="160">
+          <div class="avatar" aria-hidden="true">BK</div>
+          <div>
+            <h3>Bikash Kumbhakar</h3>
+            <p class="muted">Data Analyst • SQL • Python • BI</p>
+            <p class="muted small">Banking domain • Dashboards • Insights</p>
           </div>
-          
-          
-          <div class="bottom-container">
-            <a class="footer-link" href="https://www.linkedin.com/in/bikash-kumbhakar-9a5831233">LinkedIn</a>
-            <a class="footer-link" href="https://www.instagram.com/">Instagram</a>
-            
-            <p>© 2022 Bikash Kumbhakar @ Bikash Web</p>
+        </div>
+
+        <div class="stats reveal" data-delay="220">
+          <div class="stat">
+            <p class="stat__num">4</p>
+            <p class="muted">Projects</p>
           </div>
-          
-    </body>
+          <div class="stat">
+            <p class="stat__num">2</p>
+            <p class="muted">Roles</p>
+          </div>
+          <div class="stat">
+            <p class="stat__num">3</p>
+            <p class="muted">Languages</p>
+          </div>
+        </div>
+
+        <div class="card mini reveal" data-delay="280">
+          <h4>Languages</h4>
+          <div class="badges">
+            <span class="badge">English</span>
+            <span class="badge">Hindi</span>
+            <span class="badge">Bengali</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section container" id="about">
+      <div class="section__head reveal">
+        <h2>About Me</h2>
+        <p class="muted">Short and clear overview of what you do.</p>
+      </div>
+
+      <div class="grid2">
+        <div class="card reveal" data-delay="60">
+          <h3>Profile</h3>
+          <p>
+            I am a Data Analyst with strong skills in SQL, Python, Excel and BI tools. I enjoy exploring data,
+            finding patterns, and creating dashboards that help teams take better decisions.
+          </p>
+          <p>
+            I have worked with customer and portfolio data in the banking domain and also supported teams by validating
+            datasets and producing clear reports.
+          </p>
+
+          <div class="badges">
+            <span class="badge">SQL</span>
+            <span class="badge">Python</span>
+            <span class="badge">Power BI</span>
+            <span class="badge">Tableau</span>
+            <span class="badge">Excel</span>
+            <span class="badge">Git</span>
+          </div>
+        </div>
+
+        <div class="card reveal" data-delay="120">
+          <h3>Resume</h3>
+          <p class="muted">
+            Put your resume PDF in the same folder as this website and name it <b>resume.pdf</b>.
+          </p>
+          <a class="btn full" href="resume.pdf" download>Download Resume</a>
+
+          <div class="divider"></div>
+
+          <h4>Tools & Libraries</h4>
+          <div class="badges">
+            <span class="badge">pandas</span>
+            <span class="badge">NumPy</span>
+            <span class="badge">Plotly</span>
+            <span class="badge">Tableau</span>
+            <span class="badge">Power BI</span>
+            <span class="badge">GitHub</span>
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">Bootstrap</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section container" id="skills">
+      <div class="section__head reveal">
+        <h2>Skills</h2>
+        <p class="muted">Main technical skills.</p>
+      </div>
+
+      <div class="skills">
+        <div class="skill card reveal" data-delay="60">
+          <h3>Data Analysis</h3>
+          <p class="muted">SQL • Excel • Python • pandas • NumPy</p>
+          <div class="progress"><div class="progress__bar" style="width: 88%"></div></div>
+        </div>
+
+        <div class="skill card reveal" data-delay="120">
+          <h3>Visualization</h3>
+          <p class="muted">Power BI • Tableau • Plotly Dash</p>
+          <div class="progress"><div class="progress__bar" style="width: 82%"></div></div>
+        </div>
+
+        <div class="skill card reveal" data-delay="180">
+          <h3>Development</h3>
+          <p class="muted">HTML • CSS • JavaScript • Git</p>
+          <div class="progress"><div class="progress__bar" style="width: 74%"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section class="section container" id="experience">
+      <div class="section__head reveal">
+        <h2>Work Experience</h2>
+        <p class="muted">Your roles and key responsibilities.</p>
+      </div>
+
+      <div class="timeline">
+        <article class="card timeline__item reveal" data-delay="60">
+          <div class="timeline__top">
+            <h3>HDFC Bank — Personal Banker (Classic Portfolio)</h3>
+            <span class="chip">Jul 2025 – Oct 2025</span>
+          </div>
+          <ul class="list">
+            <li>Managed a portfolio of classic banking customers and provided personalized financial solutions.</li>
+            <li>Analyzed customer transaction and investment data to recommend savings, insurance, and investment products.</li>
+            <li>Prepared Excel-based reports to track portfolio performance and customer satisfaction.</li>
+          </ul>
+        </article>
+
+        <article class="card timeline__item reveal" data-delay="120">
+          <div class="timeline__top">
+            <h3>DMG Solution — Content Writer / Data Analyst</h3>
+            <span class="chip">Oct 2023 – Aug 2024</span>
+          </div>
+          <ul class="list">
+            <li>Created technical content including user guides and documentation for data-driven tools.</li>
+            <li>Assisted development teams in analyzing datasets and validating outputs for accuracy.</li>
+            <li>Produced clear visual reports and dashboards to support internal decision-making.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="section container" id="projects">
+      <div class="section__head reveal">
+        <h2>Projects</h2>
+        <p class="muted">Replace the “Live/Code” links with your actual project URLs.</p>
+      </div>
+
+      <div class="projects">
+        <article class="project card reveal" data-delay="60">
+          <h3>Credit Data Analysis & Dashboard (20 Days)</h3>
+          <p class="muted">
+            Performed EDA on a credit dataset with 279k+ records, extracted 20+ insights, built interactive Plotly visuals,
+            and deployed a self-contained HTML dashboard.
+          </p>
+          <div class="project__tags">
+            <span class="badge">Python</span>
+            <span class="badge">Plotly</span>
+            <span class="badge">EDA</span>
+            <span class="badge">Dashboard</span>
+          </div>
+          <div class="project__links">
+            <a class="btn small" href="#" target="_blank" rel="noreferrer">Live</a>
+            <a class="btn small ghost" href="#" target="_blank" rel="noreferrer">Code</a>
+          </div>
+        </article>
+
+        <article class="project card reveal" data-delay="120">
+          <h3>Sales Analysis Dashboard (10 Days)</h3>
+          <p class="muted">
+            Cleaned and processed sales data, created visuals for sales growth and product performance,
+            and built an interactive dashboard with Dash/Plotly.
+          </p>
+          <div class="project__tags">
+            <span class="badge">Dash</span>
+            <span class="badge">Plotly</span>
+            <span class="badge">Data Cleaning</span>
+          </div>
+          <div class="project__links">
+            <a class="btn small" href="#" target="_blank" rel="noreferrer">Live</a>
+            <a class="btn small ghost" href="#" target="_blank" rel="noreferrer">Code</a>
+          </div>
+        </article>
+
+        <article class="project card reveal" data-delay="180">
+          <h3>Pathsala College Portal (61 Days)</h3>
+          <p class="muted">
+            Built a portal to manage notices, assignments, and resources with admin + student panels,
+            authentication, and MySQL storage.
+          </p>
+          <div class="project__tags">
+            <span class="badge">MySQL</span>
+            <span class="badge">Web App</span>
+            <span class="badge">Authentication</span>
+          </div>
+          <div class="project__links">
+            <a class="btn small" href="#" target="_blank" rel="noreferrer">Live</a>
+            <a class="btn small ghost" href="#" target="_blank" rel="noreferrer">Code</a>
+          </div>
+        </article>
+
+        <article class="project card reveal" data-delay="240">
+          <h3>Alphabet Learning Website (30 Days)</h3>
+          <p class="muted">
+            Created a responsive learning website for alphabets with audio pronunciation and interactive UI for capital and small letters.
+          </p>
+          <div class="project__tags">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">Responsive</span>
+          </div>
+          <div class="project__links">
+            <a class="btn small" href="#" target="_blank" rel="noreferrer">Live</a>
+            <a class="btn small ghost" href="#" target="_blank" rel="noreferrer">Code</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Education ===== -->
+    <section class="section container" id="education">
+      <div class="section__head reveal">
+        <h2>Education</h2>
+        <p class="muted">Academic background.</p>
+      </div>
+
+      <div class="grid2">
+        <div class="card reveal" data-delay="60">
+          <h3>Karim City College</h3>
+          <p class="muted"><b>Bachelor of Computer Applications</b> — Completed in 2023</p>
+        </div>
+
+        <div class="card reveal" data-delay="120">
+          <h3>Karim City College</h3>
+          <p class="muted"><b>Intermediate in Science</b> — Completed in 2020</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section container" id="contact">
+      <div class="section__head reveal">
+        <h2>Contact</h2>
+        <p class="muted">Send a message (opens your email app).</p>
+      </div>
+
+      <div class="grid2">
+        <div class="card reveal" data-delay="60">
+          <h3>Let’s connect</h3>
+          <p class="muted">For jobs, freelance, or collaboration, feel free to reach out.</p>
+
+          <div class="contactInfo">
+            <p><b>Email:</b> <span id="emailText">bikashkumbhakar234@gmail.com</span></p>
+            <p><b>Phone:</b> +91-7970897640</p>
+            <p><b>GitHub:</b> <a href="https://github.com/Bikashkumbhakar" target="_blank" rel="noreferrer">github.com/Bikashkumbhakar</a></p>
+
+            <button class="btn small" id="copyEmailBtn" type="button">Copy Email</button>
+            <p class="muted small" id="copyStatus"></p>
+          </div>
+        </div>
+
+        <form class="card reveal" data-delay="120" id="contactForm">
+          <label class="field">
+            <span>Name</span>
+            <input type="text" id="name" required placeholder="Your name" />
+          </label>
+
+          <label class="field">
+            <span>Email</span>
+            <input type="email" id="email" required placeholder="your@email.com" />
+          </label>
+
+          <label class="field">
+            <span>Message</span>
+            <textarea id="message" rows="5" required placeholder="Write your message..."></textarea>
+          </label>
+
+          <button class="btn primary full" type="submit">Send Message</button>
+          <p class="muted small" id="formStatus"></p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer container reveal" data-delay="60">
+      <p class="muted small">© <span id="year"></span> Bikash Kumbhakar. All rights reserved.</p>
+      <a class="muted small" href="#top">Back to top ↑</a>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
 </html>
